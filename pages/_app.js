@@ -7,7 +7,7 @@ import React from "react";
 const MyApp = ({ Component, pageProps }) => {
   return (
     <Provider store={store}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </Provider>
   );
 };
