@@ -6,7 +6,7 @@ import React from "react";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <Provider store={{ none: "none" }}>
+    <Provider store={store}>
       <Component {...pageProps} />;
     </Provider>
   );
